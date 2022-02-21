@@ -6,11 +6,11 @@ const Home = () => {
     useEffect(() => {
         document.title = Title('Home')
     },[]);
-    
+
     return (
      <div>
-
-     Home</div>
+         <h4>Home</h4>
+     </div>
     );
 }
 

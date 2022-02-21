@@ -22,7 +22,7 @@ const App = () => {
 
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand>Falling Cone Woodworking</Navbar.Brand>
+
           <Nav className="me-auto">
             <LinkContainer to="/">
               <Nav.Link>Home</Nav.Link>
@@ -39,11 +39,11 @@ const App = () => {
       </Navbar>
 
       <Container>
-      <header className=" pt-3 pb-3">
-        <strong>Falling Cone Woodworking</strong>
-        <p>Under construction</p>
-      </header>
+        <header className=" pt-3 pb-3">
+          <img className="logo" src="../Images/fcww.png" />
+        </header>
       </Container>
+      <hr />
       <Container>
         <Routes>
           <Route path="/" element={<Home />}></Route>
